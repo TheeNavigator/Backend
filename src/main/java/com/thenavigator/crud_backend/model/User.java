@@ -22,10 +22,8 @@ public class User {
 
     private String username;
 
-    private String firstName;
-
-    private String lastName;
+    private String name;
 
     @Column(nullable = false)
-    private  String userEmail;
+    private  String email;
 }
